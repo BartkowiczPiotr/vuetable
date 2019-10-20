@@ -85,7 +85,7 @@ In object in headers you have to define two keys:
 <vuetable :headers="headers" :items="people" />
 ```
 
-You can always use rowTemplate prop to set width foreach column. 
+You can always use rowTemplate prop to set width for each column. 
 
 ```
 <vuetable :headers="headers" :items="people" rowTemplate="33.3% 33.3% 33.3%"/>
@@ -108,7 +108,7 @@ You can always use rowTemplate prop to set width foreach column.
 | paginationClass   | String |         | No       | Set pagination class.                                                                       |
 
 # Slots
-You can access to slot foreach column
+You can access to slot for each column
 
 ```
 <template v-slot:[forKeyFromHeaders]="{item}">
@@ -123,7 +123,7 @@ Example:
 </vuetable>
 ```
 
-And foreach header
+And for each header
 
 ```
 <template v-slot:HEADER_[forKeyFromHeaders]="{item}">
