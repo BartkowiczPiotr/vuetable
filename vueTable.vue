@@ -145,7 +145,7 @@
 <script>
 export default {
 
-    name: 'vueTable',
+    name: 'vuetable',
     props:{
 
         //basic setup
